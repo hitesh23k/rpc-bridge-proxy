@@ -1,0 +1,23 @@
+{
+  "name": "rpc-bridge",
+  "version": "1.0.0",
+  "description": "Secure RPC calls by redirection request from HTTP to HTTPS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitesh23k/rpc-bridge.git"
+  },
+  "author": "Hitesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hitesh23k/rpc-bridge/issues"
+  },
+  "homepage": "https://github.com/hitesh23k/rpc-bridge#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy": "^1.18.1"
+  }
+}
